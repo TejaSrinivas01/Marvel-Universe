@@ -1,0 +1,111 @@
+@import url('https://fonts.googleapis.com/css?family=Roboto+Condensed&display=swap');
+body {
+    background-color: black;
+    color: white;
+    font-family: 'Roboto Condensed', sans-serif;
+    max-width: 100%;
+    overflow-x: initial;
+    padding: 0;
+    margin: 0;
+}
+
+.mainTemplate {
+    position:relative;
+}
+
+.backgroundTemplate{
+    height: 300px;
+    width: 100%;
+    object-fit: cover;
+    position:relative;
+    background-size: cover;
+
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.logo {
+    height: 90px;
+    width: 180px;
+}
+
+iframe{
+    height: 500px;
+    width: 85%;
+    object-fit: cover;
+    background-size: cover;
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-top: 20px;
+}
+
+.image-header {
+    padding-left: 20px;
+    font-size:xx-large;
+}
+
+.header{
+    text-decoration: azure;
+    margin:30px;
+    
+}
+
+.desc{
+    margin:30px;
+    
+
+}
+
+.name{
+    font-weight: bolder;
+}
+
+.main-content{
+    padding: 5px;
+    
+    background-color:#383838;
+    height: 100%;
+    width:100%;
+}
+.content{
+    position:relative;
+    margin:30px;
+    
+    
+}
+.label{
+    position: absolute;
+    
+}
+.label1{
+    position: absolute;
+    top:0;
+    left:0;
+
+}
+.label2{
+    position: absolute;
+    top:0;
+    right:0;
+
+}
+.label3{
+    position: absolute;
+    bottom:20;
+    left:0;
+
+}
+.label4{
+    position: absolute;
+    bottom:20;
+    right:0;
+
+}
+.label5{
+    position: absolute;
+    bottom:50;
+    left:0;
+
+}

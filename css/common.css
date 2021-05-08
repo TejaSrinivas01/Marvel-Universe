@@ -1,0 +1,207 @@
+@import url('https://fonts.googleapis.com/css?family=Roboto+Condensed&display=swap');
+
+/* Body */
+body{
+	justify-content: center;
+	align-items: center;
+	perspective: 1500px;
+	transform-style: preserve-3d;
+	position: relative;
+    background-color: #161616;
+    margin: 0px;
+}
+
+.display-error{
+    font-family: 'Roboto Condensed', sans-serif;   
+    color: white; 
+    display: none;
+}
+
+/* Nav bar */
+.nav-bar {
+    z-index: 1;
+    position: fixed;
+    top: 0;
+    width: 100%; 
+    height:85px;
+    background-color: #111111;
+    overflow: hidden;
+}
+
+.nav-bar a {
+    /* Font & Text */
+    text-decoration: none;
+    font-family: 'Roboto Condensed', sans-serif;;
+    text-align: center;
+    font-size: 20px;
+
+    /* Position */
+    float: left;
+    width: 20%;
+    padding-top: 35px;
+    padding-bottom: 35px;
+
+    /* Color */
+    color: white;
+}
+
+.nav-bar a:hover {
+    background-color: #000; 
+    color: #ED1A23;
+}
+
+
+.logo{
+    margin:0;
+    transition: all 1s ease; 
+}
+
+/* Search tools */
+.search-tools{
+    z-index: 1;
+    transition: all 1s ease;
+    font-family: 'Roboto Condensed', sans-serif;
+    color: white;
+    position: fixed;
+    top:120px;
+    float: left;
+    text-align: center;
+    width: 100%;
+    padding: 0px 0 30px 0;
+
+    
+}
+
+.search{
+    width: 50%;
+    height: 50px;
+    border-radius: 7px;
+    text-align: center;
+    font-family: 'Roboto Condensed', sans-serif;
+    padding: 3px;
+    
+    /*Color*/
+    background-color: #111111;
+    border-color: rgba(0, 0, 0, 0);
+    color:white;
+
+    /* Font size */
+    font-size: 15pt;
+    text-transform: lowercase;
+}
+.search:hover{
+    transition: 0.5s ease-in-out;
+    box-shadow: 4px 6px 30px rgb(107, 16, 20);
+}
+.search-label{
+    width: 5;
+    height: 50px;
+    border-radius: 7px;
+    align-items: center;
+    font-family: 'Roboto Condensed', sans-serif;
+    color: white;
+    /* Font size */
+    font-size: 15pt;
+}
+.search-select{
+    width: 5;
+    height: 50px;
+    border-radius: 7px;
+    align-items: center;
+    font-family: 'Roboto Condensed', sans-serif;
+    padding-left: 10px;
+    
+
+    /* Color */
+    background-color: #151515;
+    border-color: rgba(0, 0, 0, 0);
+    color:white;
+
+    /* Font size */
+    font-size: 15pt;
+}
+
+/* Character Card */
+.wrap{
+    /* Main layout which has all the cards */
+    width: auto;
+    padding-top: 180px;
+    perspective: 9000px;
+    font-family: 'Roboto Condensed', sans-serif;
+    padding-left: 30px;
+    padding-right: 30px;
+}
+
+
+/* Scrollbar design */
+body::-webkit-scrollbar {
+    width: 8px;
+    height: 8px;
+}
+
+body::-webkit-scrollbar-thumb {
+  background-color: darkred;
+  outline: 0px solid black;
+}
+
+
+/* Footer for all the pages */
+footer{
+    position: relative;
+    width: 100%;
+    min-height: calc(100vh - 50vh);;
+    padding: 30px 0 60px 0;
+    margin-top: 60px;
+    background-color: #252525;
+    clear: left; 
+    display: flex;
+}
+
+footer svg{
+    width: 80px;
+    margin: 80px 30px 0 40px;
+}
+
+footer ul{
+    padding-left: 40px;
+    padding-right: 40px;
+    margin: 0;
+    float: left;
+    color: white;
+}
+footer a{
+    text-decoration: none;
+    color: white;
+}
+footer a:hover{
+    color: #ED1A23;
+    transition: all 0.75s ease-in;
+}
+
+footer li{
+    font-family: 'Roboto Condensed', sans-serif;
+    display: inline-flex;
+    padding: 20px 30px 20px 0;
+}
+
+footer li p a{
+    margin-left: 2px;
+    margin-right: 2px;
+}
+
+hr{
+    border-style: solid;
+    border-color: #454545;
+}
+@media only screen and (max-width: 900px) {
+    .wrap, .nav-bar, .search-tools{
+        display: none;
+    }
+
+    .display-error{
+        display: block;
+        overflow: hidden;
+    }
+    
+}
+
