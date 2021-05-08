@@ -4,7 +4,7 @@
 
 Developed for "CSE 4004 Web Technologies" Lab project under VIT-AP University
 
-> MCU Website is a userfriendly website developed to introduce about Marvel. I tried hard to get this project to come into action. Hope you guys will enjoy the website.
+> MARVEL Website is a userfriendly website developed to introduce about Marvel. I tried hard to get this project to come into action. Hope you guys will enjoy the website.
 
 ### Features
 1. Rich UI
