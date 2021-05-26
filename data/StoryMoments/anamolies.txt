@@ -1,0 +1,6 @@
+blackpanther(4)
+cap(4)
+gamora(4)
+hulk(4)
+ironman(4)
+thor(4)

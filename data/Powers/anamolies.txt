@@ -1,0 +1,7 @@
+ANAMOLIES:
+doc strange(5)
+gamora(3)
+thanos(3)
+hulk(5)
+loki(5)
+starlord(5)
