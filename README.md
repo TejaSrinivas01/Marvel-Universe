@@ -2,9 +2,9 @@
 [![version](https://img.shields.io/badge/version-1.0.1-yellow.svg)](https://semver.org)
 
 
-Developed for my 4th Semester "CSE 4004 Web Technologies" Lab project under VIT-AP University.
+Developed for my 4th Semester 'CSE 4004 Web Technologies' Lab project under VIT-AP University.
 
-> MARVEL Website is a userfriendly website developed to introduce about Marvel. This page is hosted at InfinityFree       http://tejasrinivas-19bce7359.infinityfreeapp.com. I tried hard to get this project to come into action. Hope you guys will enjoy the website.
+> "Marvel Universe" is a userfriendly website developed to introduce about MARVEL. This page is hosted at InfinityFree http://tejasrinivas-19bce7359.infinityfreeapp.com. I tried hard to get this project to come into action. Hope you guys will enjoy the website.
 
 ### Features
 1. Rich UI
